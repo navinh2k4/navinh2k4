@@ -27,7 +27,3 @@ I'm a final-year Information Security student transitioning into the world of **
 
 ###  GitHub Stats
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=nazinguyen&show_icons=true&theme=tokyonight&hide_border=true" alt="An Vinh's Stats" width="400" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nazinguyen&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" width="400" />
-</p>
