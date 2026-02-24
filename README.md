@@ -27,5 +27,7 @@ I'm a final-year Information Security student transitioning into the world of **
 ### Featured Project: Wazuh SIEM for VoIP (FusionPBX)
 * **Objective**: Deployed a centralized SIEM architecture to detect, parse, and alert on SIP Brute-Force & Flood attacks targeting FreeSWITCH.
 * **Skills applied**: Network Flow Analysis (`sngrep`), Custom XML Decoders (PCRE2 Regex), MITRE ATT&CK mapping (T1110.001), Event Queue Rate Limiting.
-
+* **Documentation**: [🔗 Read the full Lab Report here](#)
+https://github.com/navinh2k4/wazuh-siem-homelab
+  
 ### GitHub Stats
