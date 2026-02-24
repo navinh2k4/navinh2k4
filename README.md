@@ -1,6 +1,6 @@
 ### Hi there, I'm Nguyen An Vinh! 
 
-I'm a final-year Information Security student transitioning into the world of **DevOps,**. I love building automated systems, breaking them to find faults, and fixing them to be resilient.
+I'm a final-year Information Security student transitioning into the world of **System, SOC**. I love building automated systems, breaking them to find faults, and fixing them to be resilient.
 
 - I’m currently working on: **Centralized SIEM (Wazuh) for VoIP Infrastructure**.
 - I’m currently learning: **OpenCTI**.
