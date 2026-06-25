@@ -1,32 +1,24 @@
-### Hi there, I'm Nguyen An Vinh! 
+### Hi there, I'm Nguyen An Vinh! 👋
 
-I'm a final-year Information Security student transitioning into the world of **System, SOC**. I love building automated systems, breaking them to find faults, and fixing them to be resilient.
+I'm a final-year Information Security student focused strictly on Windows Internals, native x64 C++ programming, and low-level system mechanics. I love analyzing operating system boundaries, reverse engineering binary structures, and building standalone system-level tools.
 
-- I’m currently working on: **Centralized SIEM (Wazuh) for VoIP Infrastructure**.
-- I’m currently learning: **OpenCTI**.
-- Background: **Information Security (KMA)**.
-- How to reach me: [navinh2k4@gmail.com](mailto:navinh2k4@gmail.com)
+- 🚀 **I’m currently working on:** Advanced PE structural manipulation and memory safety tools.
+- 📚 **I’m currently learning:** Windows Kernel Architecture & Driver Development basics.
+- 🎓 **Background:** Information Security | Academy of Cryptography Techniques (KMA).
+- ✉️ **How to reach me:** navinh2k4@gmail.com
 
-### Tech Stack & Tools
+---
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Linux-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
-  <br>
-  <img src="https://img.shields.io/badge/Wazuh_SIEM-00A9E5?style=for-the-badge&logo=wazuh&logoColor=white" />
-  <img src="https://img.shields.io/badge/FreeSWITCH_VoIP-174872?style=for-the-badge&logo=freeswitch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nmap_Security-2B7A78?style=for-the-badge&logo=nmap&logoColor=white" />
-  <br>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash_Script-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
-  <img src="https://img.shields.io/badge/PCRE2_Regex-8A2BE2?style=for-the-badge&logo=regex&logoColor=white" />
-</p>
+### 🛠️ Featured Research Projects
 
-### Featured Project: Wazuh SIEM for VoIP (FusionPBX)
-* **Objective**: Deployed a centralized SIEM architecture to detect, parse, and alert on SIP Brute-Force & Flood attacks targeting FreeSWITCH.
-* **Skills applied**: Network Flow Analysis (`sngrep`), Custom XML Decoders (PCRE2 Regex), MITRE ATT&CK mapping (T1110.001), Event Queue Rate Limiting.
-* **Documentation**: https://github.com/navinh2k4/wazuh-siem-homelab
-  
-### GitHub Stats
+#### 📂 [Advanced Static PE Parser Engine](https://github.com/navinh2k4/PE-Parser)
+- **Objective:** Built a lightweight, standalone command-line engine to parse and extract structural data from Windows PE binaries without wrapper libraries.
+- **Key Logic:** Developed an `RVA to File Offset` translation matrix to map virtual memory addresses to physical raw disk offsets via alignments.
+
+#### 📂 [Windows Subsystem Information Tools Clone](https://github.com/navinh2k4/SysTools-Clone)
+- **Objective:** Re-engineered core utilities (cloning `tasklist`/`systeminfo`) with a strict focus on memory safety and exact byte-size dynamic allocation.
+- **Key Logic:** Eliminated vulnerable static array structures, managing resource lifecycles by explicitly tracking and closing system handles (`CloseHandle`).
+
+#### 📂 [Advanced PE Manipulation Labs: PE08 & PE10](https://github.com/navinh2k4/PE-Manipulation-Labs)
+- **PE08_Process_Hollowing:** Injected payloads by creating a suspended process, unmapping remote memory via `NtUnmapViewOfSection`, and rewriting its image.
+- **PE10_AddressOfEntryPoint_Code_Injection:** Hijacked target execution flows by directly modifying the `AddressOfEntryPoint` fields within the Optional Header.
